@@ -1,11 +1,11 @@
 import { Box, Button, Typography, Container } from "@mui/material";
-import banner from "../assets/istockphoto-986529330-1024x1024.jpg";
+import banner from "../assets/premium_photo.avif";
 
 const HeroSection = () => {
   return (
     <Box
       sx={{
-        height: "100vh",
+        height: "70vh",
         backgroundImage: `url(${banner})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
